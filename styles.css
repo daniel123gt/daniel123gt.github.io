@@ -1,0 +1,37 @@
+
+body {
+  background-color: #eceff1 ;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.showCase{
+  width: 100%;
+  height: 400px;
+  background: url('img/showcase.jpg') no-repeat center center/cover;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  color: #fff;
+  
+}   
+
+.showCase h2,
+.showCase h3,
+.showCase p{
+  margin-bottom: 10px;
+}
+.imgCard{
+  padding: 60px;
+}
+
+.imgSocial{
+  width: 40px;
+}
