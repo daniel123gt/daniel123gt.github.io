@@ -28,10 +28,14 @@ main {
 .showCase p{
   margin-bottom: 10px;
 }
+
 .imgCard{
   padding: 60px;
 }
 
 .imgSocial{
   width: 40px;
+}
+.img-msj{
+  width: 75%;
 }
