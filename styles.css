@@ -52,7 +52,14 @@ main {
   transition: 0.25s;
 }
 
-.imgApp:hover{
-  transform: scale(1.01);
-  z-index: 1000;
+.textoPresent{
+  font-size: 18px;
+  text-align: justify;
+  text-indent: 20px;
+  line-height: 1.8;
+}
+
+.textoPresentTitulo{
+  font-size: 22px;
+  font-weight: bold;
 }
