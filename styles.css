@@ -1,4 +1,3 @@
-
 body {
   background-color: #eceff1 ;
   display: flex;
@@ -14,7 +13,7 @@ main {
   width: 100%;
   height: 400px;
   background: url('img/showcase.jpg') no-repeat center center/cover;
-  padding: 30px;
+  padding: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,6 +21,10 @@ main {
   color: #fff;
   
 }   
+
+.showCase a{
+  margin: 10px;
+}
 
 .showCase h2,
 .showCase h3,
@@ -31,6 +34,11 @@ main {
 
 .imgCard{
   padding: 60px;
+  transition: 0.25s;
+}
+
+.imgCard:hover{
+  transform: scale(1.2);
 }
 
 .imgSocial{
@@ -38,4 +46,13 @@ main {
 }
 .img-msj{
   width: 75%;
+}
+.imgApp{
+  contain: paint;
+  transition: 0.25s;
+}
+
+.imgApp:hover{
+  transform: scale(1.01);
+  z-index: 1000;
 }
