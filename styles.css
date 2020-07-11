@@ -64,3 +64,21 @@ main {
   font-size: 22px;
   font-weight: bold;
 }
+
+.timeline h2{
+  font-size: 35px;
+}
+.timeline h3{
+  font-size: 33px;
+}
+.timeline p{
+  font-size: 20px;
+}
+.timeline .content{
+  background-color: white;
+  padding: 15px;
+  margin: 20px;
+  border: #2632383a solid 1px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 15px #26323844;
+}
